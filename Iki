@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IKI TIDORE - Video</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #eafaf1;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2e7d32;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>IKI TIDORE</h1>
+    <p>Video Dokumentasi</p>
+  </header>
+
+  <div class="container">
+    <h2>Video Terbaru</h2>
+    <video controls>
+      <source src="VID-20250604-WA0105.mp4" type="video/mp4">
+      Browser Anda tidak mendukung video.
+    </video>
+  </div>
+
+  <a href="https://wa.me/6281234567890" class="whatsapp-button" target="_blank">
+    Hubungi via WhatsApp
+  </a>
+
+  <footer>
+    <p>&copy; 2025 IKI TIDORE</p>
+  </footer>
+
+</body>
+</html>
